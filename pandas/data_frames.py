@@ -18,7 +18,7 @@ print(df)
 
 # Using dictionaries
 
-dict = [{'a':8,'b':7,'c':9,'d':4},{'a':8,'b':7,'c':9,'d':4}] # Dictionary keys becomes coloumn names
+dict = [{'a':8,'b':7,'c':9,'d':4},{'a':12,'b':23,'c':29,'d':54}] # Dictionary keys becomes coloumn names
 
 df = pd.DataFrame(dict)
 print(df)
@@ -31,4 +31,3 @@ new_dict = {'Roll no.':pd.Series([1,2,3,4,5]),
 
 df = pd.DataFrame(new_dict)
 print(df)
-
