@@ -1,6 +1,8 @@
 import pandas as pd
+import os
 
-df = pd.read_csv("sample2.csv")
+
+df = pd.read_csv(os.path.join(os.getcwd(),"pandas\sample2.csv"))
 print(df.head())
 
 branch_group = df.groupby(by='Branch') #Groups data according to Branch coloumn

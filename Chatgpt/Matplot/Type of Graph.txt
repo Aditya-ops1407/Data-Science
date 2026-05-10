@@ -1,0 +1,7 @@
+| Data Type                                | Best Graph   |
+| ---------------------------------------- | ------------ |
+| Category comparison                      | Bar graph    |
+| Trend/time                               | Line graph   |
+| Proportion/share                         | Pie chart    |
+| Numerical distribution                   | Histogram    |
+| Relationship between numerical variables | Scatter plot |
